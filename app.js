@@ -3,9 +3,9 @@ const https = require('https');
 const port = process.env.PORT || 3000;
 
 const TARGET_URLS = {
-   'mocksite-nine.vercel.app': 'https://spectacular-form-243707.framer.app/',
+   'https://mocktest-alpha.vercel.app/': 'https://my.spline.design/balloonexperience-f4df8becf588d109a3db78cfb1fdc3ea/',
    'abc.localhost:3000': 'https://spectacular-form-243707.framer.app/',
-   default: 'https://spectacular-form-243707.framer.app/', // Default URL if no match is found
+   default: 'https://my.spline.design/balloonexperience-f4df8becf588d109a3db78cfb1fdc3ea/', // Default URL if no match is found
 };
 
 function getTargetUrl(req) {
